@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="theme-color" content="#0a0705">
+<meta property="og:title" content="Shiv Patel's Wedding 2027 💍">
+<meta property="og:description" content="3 Days of Celebration — 24, 25 & 26 January 2027 · Surat, Gujarat">
+<title>Shiv Patel's Wedding 2027 💍</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{font-family:'Jost',sans-serif;background:#0a0705;color:#f0e8d8;min-height:100vh;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* PETALS */
+.petal{position:fixed;pointer-events:none;z-index:0;animation:pfall linear infinite;user-select:none}
+@keyframes pfall{0%{transform:translateY(-20px) rotate(0deg) scale(1);opacity:.9}100%{transform:translateY(110vh) rotate(520deg) scale(.5);opacity:0}}
+
+/* HERO */
+.hero{position:relative;text-align:center;padding:80px 20px 80px;z-index:1;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 50% at 50% 0%,rgba(196,148,48,.2) 0%,transparent 70%);pointer-events:none}
+.orn{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:16px}
+.orn-line{width:70px;height:1px;background:linear-gradient(90deg,transparent,#c49430)}
+.orn-line.r{background:linear-gradient(270deg,transparent,#c49430)}
+.gem{width:6px;height:6px;background:#c49430;transform:rotate(45deg)}
+.gem.sm{width:3px;height:3px;opacity:.5;margin:0 2px}
+.eyebrow{font-size:10px;letter-spacing:6px;text-transform:uppercase;color:#c49430;font-weight:400;margin-bottom:20px;display:block}
+.hero-title{font-family:'Cormorant Garamond',serif;font-size:clamp(46px,10vw,96px);line-height:1.02;color:#f0e8d8;font-weight:600;margin-bottom:4px}
+.hero-title em{color:#c49430;font-style:italic;font-weight:400}
+.hero-date-row{font-size:11px;letter-spacing:5px;text-transform:uppercase;color:#c49430;margin:22px 0 8px}
+.hero-venue{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#4a3a28}
+.hero-divider{width:1px;height:56px;background:linear-gradient(180deg,rgba(196,148,48,.4),transparent);margin:32px auto 0}
+
+/* COUNTDOWN */
+.cd-wrap{max-width:520px;margin:0 auto 80px;padding:0 20px;text-align:center}
+.sec-eye{font-size:9px;letter-spacing:5px;text-transform:uppercase;color:#c49430;margin-bottom:20px;display:block}
+.cd-grid{display:flex;justify-content:center;gap:12px}
+.cd-box{flex:1;max-width:110px;background:rgba(196,148,48,.05);border:1px solid rgba(196,148,48,.15);border-radius:14px;padding:18px 6px;position:relative}
+.cd-box::before{content:'';position:absolute;top:0;left:20%;right:20%;height:1px;background:linear-gradient(90deg,transparent,#c49430,transparent)}
+.cd-n{font-family:'Cormorant Garamond',serif;font-size:clamp(32px,7vw,46px);color:#c49430;line-height:1;font-weight:600}
+.cd-l{font-size:8px;letter-spacing:3px;text-transform:uppercase;color:#4a3a28;margin-top:4px}
+
+/* DAYS */
+.days-wrap{max-width:960px;margin:0 auto 80px;padding:0 20px}
+.days-hdr{text-align:center;margin-bottom:56px}
+.days-hdr h2{font-family:'Cormorant Garamond',serif;font-size:clamp(26px,5vw,40px);color:#f0e8d8;font-weight:400;margin-bottom:6px}
+.days-hdr p{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:#4a3a28}
+
+/* single day */
+.day{margin-bottom:72px;position:relative;padding-left:0}
+.day-top{display:flex;align-items:center;gap:20px;margin-bottom:28px}
+.day-badge{flex-shrink:0;text-align:center}
+.day-num-big{font-family:'Cormorant Garamond',serif;font-size:72px;line-height:1;color:rgba(196,148,48,.1);font-weight:700;letter-spacing:-2px}
+.day-pill{font-size:8px;letter-spacing:3px;text-transform:uppercase;color:#c49430;border:1px solid rgba(196,148,48,.3);border-radius:20px;padding:3px 10px;margin-top:-4px;display:inline-block;background:rgba(196,148,48,.06)}
+.day-info{flex:1}
+.day-date-txt{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#c49430;margin-bottom:5px}
+.day-name{font-family:'Cormorant Garamond',serif;font-size:clamp(22px,4vw,32px);color:#f0e8d8;font-weight:600;line-height:1.2;margin-bottom:6px}
+.day-tagline{font-family:'Cormorant Garamond',serif;font-size:15px;color:#7a6a50;font-style:italic}
+.day-sep{height:1px;background:linear-gradient(90deg,rgba(196,148,48,.3),rgba(196,148,48,.05),transparent);margin-bottom:24px}
+
+/* event cards grid */
+.ev-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.ev-card{background:rgba(196,148,48,.04);border:1px solid rgba(196,148,48,.1);border-radius:14px;padding:22px;transition:.25s;position:relative;overflow:hidden}
+.ev-card::after{content:'';position:absolute;top:0;left:15%;right:15%;height:1px;background:linear-gradient(90deg,transparent,rgba(196,148,48,.25),transparent)}
+.ev-card:hover{border-color:rgba(196,148,48,.3);background:rgba(196,148,48,.07);transform:translateY(-2px)}
+.ev-card.highlight{border-color:rgba(196,148,48,.3);background:rgba(196,148,48,.07)}
+.ev-card.highlight::after{background:linear-gradient(90deg,transparent,rgba(196,148,48,.5),transparent)}
+.ev-time{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#c49430;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.ev-time::before{content:'';display:inline-block;width:16px;height:1px;background:rgba(196,148,48,.5)}
+.ev-icon{font-size:28px;margin-bottom:10px;display:block}
+.ev-title{font-family:'Cormorant Garamond',serif;font-size:18px;color:#f0e8d8;margin-bottom:7px;font-weight:600;line-height:1.3}
+.ev-desc{font-size:12px;color:#7a6a50;line-height:1.75}
+.ev-bullets{margin-top:12px;display:flex;flex-direction:column;gap:6px}
+.ev-bullet{display:flex;align-items:flex-start;gap:8px;font-size:11px;color:#9a8060;line-height:1.5}
+.ev-bullet::before{content:'';width:3px;height:3px;border-radius:50%;background:#c49430;flex-shrink:0;margin-top:5px}
+.ev-loc{display:inline-flex;align-items:center;gap:5px;font-size:10px;color:#5a4a30;margin-top:14px;background:rgba(196,148,48,.06);border:1px solid rgba(196,148,48,.12);border-radius:20px;padding:4px 12px}
+.ev-tag{display:inline-block;font-size:9px;letter-spacing:1px;text-transform:uppercase;padding:2px 9px;border-radius:20px;margin-top:10px;background:rgba(196,148,48,.1);color:#c49430;border:1px solid rgba(196,148,48,.18)}
+
+/* FULL DAY CARD (special main event) */
+.main-card{background:rgba(196,148,48,.06);border:1px solid rgba(196,148,48,.25);border-radius:16px;padding:28px;margin-bottom:14px;position:relative;overflow:hidden}
+.main-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#c49430,transparent)}
+.main-card-icon{font-size:36px;margin-bottom:12px;display:block}
+.main-card-title{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,3.5vw,26px);color:#f0e8d8;font-weight:600;margin-bottom:8px}
+.main-card-desc{font-size:13px;color:#7a6a50;line-height:1.8}
+
+/* TIMELINE (Day 2 vertical flow) */
+.timeline-flow{display:flex;flex-direction:column;gap:0}
+.tl-item{display:flex;gap:0;position:relative}
+.tl-left{width:90px;flex-shrink:0;text-align:right;padding-right:20px;padding-top:2px}
+.tl-time-txt{font-size:10px;letter-spacing:1px;color:#c49430;font-weight:500}
+.tl-center{width:24px;flex-shrink:0;display:flex;flex-direction:column;align-items:center}
+.tl-dot{width:10px;height:10px;border-radius:50%;background:#c49430;border:2px solid #0a0705;flex-shrink:0;z-index:1}
+.tl-dot.big{width:14px;height:14px;box-shadow:0 0 0 3px rgba(196,148,48,.2)}
+.tl-line{flex:1;width:1px;background:rgba(196,148,48,.2);margin:2px 0}
+.tl-right{flex:1;padding-bottom:24px;padding-top:0}
+.tl-card{background:rgba(196,148,48,.04);border:1px solid rgba(196,148,48,.1);border-radius:12px;padding:16px 18px;transition:.2s}
+.tl-card:hover{border-color:rgba(196,148,48,.25);background:rgba(196,148,48,.07)}
+.tl-card-icon{font-size:20px;margin-bottom:6px;display:block}
+.tl-card-title{font-family:'Cormorant Garamond',serif;font-size:16px;color:#f0e8d8;font-weight:600;margin-bottom:4px}
+.tl-card-desc{font-size:11px;color:#7a6a50;line-height:1.65}
+.tl-card-bullets{margin-top:8px;display:flex;flex-direction:column;gap:4px}
+.tl-card-bullet{font-size:10px;color:#9a8060;display:flex;align-items:flex-start;gap:6px;line-height:1.5}
+.tl-card-bullet::before{content:'◈';color:rgba(196,148,48,.4);flex-shrink:0;font-size:8px;margin-top:1px}
+
+/* GALLERY STRIP */
+.venue-strip{max-width:960px;margin:0 auto 72px;padding:0 20px}
+.venue-card{background:rgba(196,148,48,.05);border:1px solid rgba(196,148,48,.15);border-radius:16px;padding:36px 28px;text-align:center;position:relative;overflow:hidden}
+.venue-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#c49430,transparent)}
+.venue-icon{font-size:40px;margin-bottom:16px;display:block}
+.venue-title{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,4vw,30px);color:#f0e8d8;margin-bottom:10px;font-weight:600}
+.venue-address{font-size:13px;color:#7a6a50;line-height:1.8;margin-bottom:20px}
+.venue-tags{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.vtag{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#c49430;background:rgba(196,148,48,.08);border:1px solid rgba(196,148,48,.18);border-radius:20px;padding:5px 14px}
+
+/* FOOTER */
+.footer{text-align:center;padding:56px 20px 36px;border-top:1px solid rgba(196,148,48,.08)}
+.footer-orn{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:20px}
+.footer-line{width:80px;height:1px;background:linear-gradient(90deg,transparent,rgba(196,148,48,.3))}
+.footer-line.r{background:linear-gradient(270deg,transparent,rgba(196,148,48,.3))}
+.footer-title{font-family:'Cormorant Garamond',serif;font-size:22px;color:#c49430;font-style:italic;margin-bottom:8px}
+.footer-sub{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#3a2a18;line-height:1.9}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+  .ev-grid{grid-template-columns:1fr}
+  .cd-grid{gap:8px}
+  .tl-left{width:70px;font-size:9px}
+  .day-num-big{font-size:52px}
+}
+@media(max-width:380px){
+  .tl-left{display:none}
+  .tl-center{display:none}
+  .tl-right{padding-left:0}
+}
+</style>
+</head>
+<body>
+
+<div id="petals"></div>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero">
+  <span class="eyebrow">You Are Cordially Invited</span>
+  <div class="orn">
+    <div class="orn-line"></div>
+    <span class="gem sm"></span><span class="gem"></span><span class="gem sm"></span>
+    <div class="orn-line r"></div>
+  </div>
+  <h1 class="hero-title">Shiv Patel's<br><em>Wedding</em></h1>
+  <div class="hero-date-row">24 · 25 · 26 January 2027</div>
+  <div class="hero-venue">Amitnagar Krishna Valley · Surat, Gujarat</div>
+  <div class="hero-divider"></div>
+</section>
+
+<!-- ══════════ COUNTDOWN ══════════ -->
+<div class="cd-wrap">
+  <span class="sec-eye">Counting Down to the Big Day</span>
+  <div class="cd-grid">
+    <div class="cd-box"><div class="cd-n" id="cd-d">--</div><div class="cd-l">Days</div></div>
+    <div class="cd-box"><div class="cd-n" id="cd-h">--</div><div class="cd-l">Hours</div></div>
+    <div class="cd-box"><div class="cd-n" id="cd-m">--</div><div class="cd-l">Mins</div></div>
+    <div class="cd-box"><div class="cd-n" id="cd-s">--</div><div class="cd-l">Secs</div></div>
+  </div>
+</div>
+
+<!-- ══════════ DAYS ══════════ -->
+<div class="days-wrap">
+  <div class="days-hdr">
+    <h2>Three Days of Celebration</h2>
+    <p>A complete wedding journey — rituals, music, joy & union</p>
+  </div>
+
+  <!-- ─── DAY 1 ─── -->
+  <div class="day" id="day1">
+    <div class="day-top">
+      <div class="day-badge">
+        <div class="day-num-big">01</div>
+        <div class="day-pill">Day One</div>
+      </div>
+      <div class="day-info">
+        <div class="day-date-txt">Saturday · 24 January 2027</div>
+        <div class="day-name">Anand no Garbo</div>
+        <div class="day-tagline">An evening of devotion, colour & dance</div>
+      </div>
+    </div>
+    <div class="day-sep"></div>
+    <div class="ev-grid">
+
+      <div class="main-card">
+        <span class="main-card-icon">🎶</span>
+        <div class="main-card-title">Anand no Garbo — Evening Celebration</div>
+        <div class="main-card-desc">The wedding festivities begin with the sacred and joyful tradition of Garba — a devotional dance form dedicated to Goddess Amba. Family and friends come together to celebrate with music, colour and spiritual energy as we mark the beginning of this auspicious occasion.</div>
+      </div>
+
+      <div class="ev-card">
+        <div class="ev-time">6:00 PM onwards</div>
+        <span class="ev-icon">🌺</span>
+        <div class="ev-title">Welcome & Gathering</div>
+        <div class="ev-desc">Guests arrive and are welcomed with traditional floral decorations, diyas and the fragrance of fresh marigolds. Traditional Gujarati snacks and welcome drinks are served.</div>
+        <div class="ev-bullets">
+          <div class="ev-bullet">Traditional Gujarati welcome snacks served</div>
+          <div class="ev-bullet">Decorative diya lighting ceremony</div>
+          <div class="ev-bullet">Family photo sessions at decorated mandap</div>
+        </div>
+        <div class="ev-loc">📍 Amitnagar Krishna Valley</div>
+      </div>
+
+      <div class="ev-card">
+        <div class="ev-time">7:00 PM</div>
+        <span class="ev-icon">🙏</span>
+        <div class="ev-title">Aarti & Mantra Chanting</div>
+        <div class="ev-desc">The evening begins with a sacred aarti performed by the family pandit, followed by group chanting of Amba Mata's prayers to invoke blessings for the upcoming wedding.</div>
+        <div class="ev-bullets">
+          <div class="ev-bullet">Shri Amba Chalisa recitation</div>
+          <div class="ev-bullet">Collective aarti with bells and dhol</div>
+          <div class="ev-bullet">Prasad distribution to all guests</div>
+        </div>
+        <div class="ev-loc">📍 Main Prayer Hall</div>
+      </div>
+
+      <div class="ev-card highlight">
+        <div class="ev-time">8:00 PM — 11:30 PM</div>
+        <span class="ev-icon">💃</span>
+        <div class="ev-title">Garba Night</div>
+        <div class="ev-desc">The heart of Day 1 — vibrant Garba circles with live dhol, shehnai and traditional Gujarati folk songs. Everyone is invited to dance in traditional chaniya choli and kediyu attire.</div>
+        <div class="ev-bullets">
+          <div class="ev-bullet">Live dhol & folk music performance</div>
+          <div class="ev-bullet">Traditional Garba in 3 rounds (Tran Taali, Do Taali, Ek Taali)</div>
+          <div class="ev-bullet">Dandiya Raas with decorated sticks</div>
+          <div class="ev-bullet">Best dressed couple & dancer awards</div>
+          <div class="ev-bullet">DJ music for modern Garba fusion</div>
+        </div>
+        <span class="ev-tag">Main Event</span>
+        <div class="ev-loc">📍 Open Grounds · Amitnagar</div>
+      </div>
+
+      <div class="ev-card">
+        <div class="ev-time">11:00 PM</div>
+        <span class="ev-icon">🍽️</span>
+        <div class="ev-title">Traditional Gujarati Dinner</div>
+        <div class="ev-desc">A lavish traditional Gujarati thali dinner featuring authentic flavours — dal baati churma, undhiyu, shrikhand puri, and an array of sweets and farsan.</div>
+        <div class="ev-bullets">
+          <div class="ev-bullet">Full Gujarati thali with unlimited serving</div>
+          <div class="ev-bullet">Live chaat and snack counters</div>
+          <div class="ev-bullet">Traditional sweets — mohanthal, lapsi, ladoo</div>
+        </div>
+        <div class="ev-loc">📍 Banquet Hall</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ─── DAY 2 ─── -->
+  <div class="day" id="day2">
+    <div class="day-top">
+      <div class="day-badge">
+        <div class="day-num-big">02</div>
+        <div class="day-pill">Day Two</div>
+      </div>
+      <div class="day-info">
+        <div class="day-date-txt">Sunday · 25 January 2027</div>
+        <div class="day-name">Rituals, Blessings & Music Night</div>
+        <div class="day-tagline">Sacred ceremonies by day, unforgettable music by night</div>
+      </div>
+    </div>
+    <div class="day-sep"></div>
+
+    <!-- TIMELINE for Day 2 -->
+    <div class="timeline-flow">
+
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-time-txt">7:00 AM</div></div>
+        <div class="tl-center"><div class="tl-dot big"></div><div class="tl-line"></div></div>
+        <div class="tl-right">
+          <div class="tl-card">
+            <span class="tl-card-icon">🌅</span>
+            <div class="tl-card-title">Morning Puja & Sankalp</div>
+            <div class="tl-card-desc">The day begins with a sacred morning puja. The family priest performs the Sankalp — a formal declaration and commitment for the wedding rituals to follow, setting the spiritual intention for all ceremonies.</div>
+            <div class="tl-card-bullets">
+              <div class="tl-card-bullet">Surya Namaskar and morning prayer</div>
+              <div class="tl-card-bullet">Sankalp — priest-led intention setting ceremony</div>
+              <div class="tl-card-bullet">Holy water (Gangajal) purification ritual</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-time-txt">8:30 AM</div></div>
+        <div class="tl-center"><div class="tl-dot big"></div><div class="tl-line"></div></div>
+        <div class="tl-right">
+          <div class="tl-card">
+            <span class="tl-card-icon">🐘</span>
+            <div class="tl-card-title">Ganesh Puja</div>
+            <div class="tl-card-desc">All auspicious Hindu ceremonies begin with Ganesh Puja — worshipping Lord Ganesha, the remover of obstacles, to bless the wedding with smooth proceedings and eternal happiness.</div>
+            <div class="tl-card-bullets">
+              <div class="tl-card-bullet">Sthapana of Lord Ganesh idol with flowers & sweets</div>
+              <div class="tl-card-bullet">16 Upachar (16 steps of worship) performed by family</div>
+              <div class="tl-card-bullet">Modak and laddoo offering — Ganesh's favourite</div>
+              <div class="tl-card-bullet">Ganesh Aarti sung by all family members</div>
+              <div class="tl-card-bullet">Distribution of prasad to all attendees</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-time-txt">10:00 AM</div></div>
+        <div class="tl-center"><div class="tl-dot big"></div><div class="tl-line"></div></div>
+        <div class="tl-right">
+          <div class="tl-card">
+            <span class="tl-card-icon">🏠</span>
+            <div class="tl-card-title">Grah Shanti Puja</div>
+            <div class="tl-card-desc">Grah Shanti is a powerful Vedic ritual performed to pacify the nine planets (Navagrahas) and seek their blessings for a prosperous and harmonious married life. The ceremony creates a spiritually charged environment for the wedding.</div>
+            <div class="tl-card-bullets">
+              <div class="tl-card-bullet">Navagraha mandal preparation with 9 sacred colours</div>
+              <div class="tl-card-bullet">Vedic mantras chanted for each of the 9 planets</div>
+              <div class="tl-card-bullet">Havan kund (sacred fire) with specific wood and herbs</div>
+              <div class="tl-card-bullet">Specific ahutis (offerings) for each planet</div>
+              <div class="tl-card-bullet">Special prayers to pacify Shani, Rahu and Ketu</div>
+              <div class="tl-card-bullet">Priest performs aarti and blesses the couple</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-time-txt">12:30 PM</div></div>
+        <div class="tl-center"><div class="tl-dot big"></div><div class="tl-line"></div></div>
+        <div class="tl-right">
+          <div class="tl-card">
+            <span class="tl-card-icon">☀️</span>
+            <div class="tl-card-title">Lunch Break & Family Bonding</div>
+            <div class="tl-card-desc">A relaxed family lunch bringing both sides of the family together. Time for informal bonding, stories and laughter before the afternoon ceremonies.</div>
+            <div class="tl-card-bullets">
+              <div class="tl-card-bullet">Traditional home-cooked Gujarati lunch</div>
+              <div class="tl-card-bullet">Family introduction ceremonies (both sides)</div>
+              <div class="tl-card-bullet">Gift exchange between families</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-time-txt">2:00 PM</div></div>
+        <div class="tl-center"><div class="tl-dot big"></div><div class="tl-line"></div></div>
+        <div class="tl-right">
+          <div class="tl-card">
+            <span class="tl-card-icon">💛</span>
+            <div class="tl-card-title">Haldi Ceremony</div>
+            <div class="tl-card-desc">One of the most joyful and colourful pre-wedding rituals. Turmeric paste mixed with sandalwood and rose water is applied to the bride and groom by family members to purify, beautify and bless them before their wedding.</div>
+            <div class="tl-card-bullets">
+              <div class="tl-card-bullet">Fresh turmeric paste prepared by the ladies of the house</div>
+              <div class="tl-card-bullet">Groom's haldi applied first by mother and sisters</div>
+              <div class="tl-card-bullet">Friends and cousins join in with playful yellow colours</div>
+              <div class="tl-card-bullet">Folk songs (haldi geet) sung throughout</div>
+              <div class="tl-card-bullet">Flower petal shower on the groom</div>
+              <div class="tl-card-bullet">Photography & video coverage</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-time-txt">4:30 PM</div></div>
+        <div class="tl-center"><div class="tl-dot big"></div><div class="tl-line"></div></div>
+        <div class="tl-right">
+          <div class="tl-card">
+            <span class="tl-card-icon">🌸</span>
+            <div class="tl-card-title">Aland (Pithi) Ceremony</div>
+            <div class="tl-card-desc">Aland (also called Pithi) is a traditional Gujarati ritual where a paste of chickpea flour, turmeric, rose water and sandalwood is applied to the groom for skin brightening and as a symbol of purification before the wedding day.</div>
+            <div class="tl-card-bullets">
+              <div class="tl-card-bullet">Pithi paste prepared by the married women of family</div>
+              <div class="tl-card-bullet">Applied on face, arms, neck and feet</div>
+              <div class="tl-card-bullet">Groom sits on a decorated wooden paat (plank)</div>
+              <div class="tl-card-bullet">Mangal geet (auspicious songs) sung by family ladies</div>
+              <div class="tl-card-bullet">Protection thread (raksha) tied on groom's wrist</div>
+              <div class="tl-card-bullet">Ceremony followed by a ritual bath with herbal water</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-left"><div class="tl-time-txt">7:00 PM</div></div>
+        <div class="tl-center"><div class="tl-dot big"></div><div class="tl-line"></div></div>
+        <div class="tl-right">
+          <div class="tl-card">
+            <span class="tl-card-icon">🎵</span>
+            <div class="tl-card-title">Sangeet & Music Night</div>
+            <div class="tl-card-desc">The night comes alive with a grand music and dance celebration! Family and friends perform choreographed dance acts, sing bollywood hits and celebrate Shiv with heartfelt performances.</div>
+            <div class="tl-card-bullets">
+              <div class="tl-card-bullet">Choreographed dance performances by family groups</div>
+              <div class="tl-card-bullet">Solo and duet musical performances</div>
+              <div class="tl-card-bullet">Bollywood hits & Gujarati folk fusion DJ set</div>
+              <div class="tl-card-bullet">Open dance floor for all guests</div>
+              <div class="tl-card-bullet">Special performance by the groom's friends</div>
+              <div class="tl-card-bullet">Photo booth with fun wedding props</div>
+              <div class="tl-card-bullet">Midnight snacks and beverages</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ─── DAY 3 ─── -->
+  <div class="day" id="day3">
+    <div class="day-top">
+      <div class="day-badge">
+        <div class="day-num-big">03</div>
+        <div class="day-pill">Day Three</div>
+      </div>
+      <div class="day-info">
+        <div class="day-date-txt">Monday · 26 January 2027 · Republic Day</div>
+        <div class="day-name">Jaan to Vadu — The Grand Wedding</div>
+        <div class="day-tagline">The most auspicious day · The union of two souls</div>
+      </div>
+    </div>
+    <div class="day-sep"></div>
+    <div class="ev-grid">
+
+      <div class="main-card">
+        <span class="main-card-icon">💍</span>
+        <div class="main-card-title">The Grand Wedding Day</div>
+        <div class="main-card-desc">The most sacred and celebrated day of the three-day festivities. The groom's procession — the Jaan — departs from Amitnagar and arrives at Krishna Valley where the bride and her family await. The day brings together ancient Vedic rituals, heartfelt vows and the joyful union of two families. Being on Republic Day makes this day doubly special — a day of national pride and personal commitment.</div>
+      </div>
+
+      <div class="ev-card">
+        <div class="ev-time">6:00 AM</div>
+        <span class="ev-icon">🌄</span>
+        <div class="ev-title">Groom's Morning Rituals</div>
+        <div class="ev-desc">The wedding morning begins with special prayers, a ritual bath with herbal and flower water, and the groom being dressed in traditional wedding attire by his mother.</div>
+        <div class="ev-bullets">
+          <div class="ev-bullet">Sacred herbal bath with rose water and milk</div>
+          <div class="ev-bullet">Wearing of traditional sherwani and safa (turban)</div>
+          <div class="ev-bullet">Mother's special aarti and blessings</div>
+          <div class="ev-bullet">Sehra (floral veil) tying ceremony</div>
+        </div>
+        <div class="ev-loc">📍 Amitnagar</div>
+      </div>
+
+      <div class="ev-card highlight">
+        <div class="ev-time">10:00 AM</div>
+        <span class="ev-icon">🐴</span>
+        <div class="ev-title">Jaan — Groom's Procession</div>
+        <div class="ev-desc">The most vibrant part of the wedding — the Jaan! The groom leads a grand procession of family and friends with dhol, shehnai, fireworks and dancing. The baraat marches joyfully from Amitnagar towards Krishna Valley.</div>
+        <div class="ev-bullets">
+          <div class="ev-bullet">Groom arrives on decorated horse / classic car</div>
+          <div class="ev-bullet">Live dhol-tasha band leading the procession</div>
+          <div class="ev-bullet">Fireworks and flower petals along the route</div>
+          <div class="ev-bullet">All family and friends dance in the baraat</div>
+          <div class="ev-bullet">Procession from Amitnagar to Krishna Valley</div>
+        </div>
+        <span class="ev-tag">Grand Procession</span>
+        <div class="ev-loc">📍 Amitnagar → Krishna Valley</div>
+      </div>
+
+      <div class="ev-card">
+        <div class="ev-time">11:30 AM</div>
+        <span class="ev-icon">🌺</span>
+        <div class="ev-title">Vadu Pakhena — Bride's Welcome</div>
+        <div class="ev-desc">The bride's family performs the traditional welcome of the groom at the wedding venue. The mother of the bride performs aarti of the groom and formally invites the Jaan party inside.</div>
+        <div class="ev-bullets">
+          <div class="ev-bullet">Dwaar Puja — prayers at the entrance gate</div>
+          <div class="ev-bullet">Bride's mother performs groom's aarti</div>
+          <div class="ev-bullet">Jaimala — flower garland exchange between bride and groom</div>
+          <div class="ev-bullet">Welcome of Jaan party with flowers and sweets</div>
+        </div>
+        <div class="ev-loc">📍 Krishna Valley Entrance</div>
+      </div>
+
+      <div class="ev-card highlight">
+        <div class="ev-time">12:00 PM</div>
+        <span class="ev-icon">🔥</span>
+        <div class="ev-title">Vivah Vidhi — Wedding Ceremony</div>
+        <div class="ev-desc">The most sacred part — the Vedic wedding ceremony performed by the family priest. Ancient Sanskrit mantras are chanted as the couple takes their vows around the sacred fire (Agni).</div>
+        <div class="ev-bullets">
+          <div class="ev-bullet">Kanyadaan — father gives away the bride</div>
+          <div class="ev-bullet">Hasta Milap — joining of hands</div>
+          <div class="ev-bullet">Mangalsutra tying ceremony</div>
+          <div class="ev-bullet">Sindoor ceremony</div>
+          <div class="ev-bullet">Saptapadi — 7 sacred vows around the holy fire</div>
+          <div class="ev-bullet">Ashirvad — blessings from all elders</div>
+        </div>
+        <span class="ev-tag">Main Ceremony</span>
+        <div class="ev-loc">📍 Main Mandap · Krishna Valley</div>
+      </div>
+
+      <div class="ev-card">
+        <div class="ev-time">2:30 PM</div>
+        <span class="ev-icon">🍽️</span>
+        <div class="ev-title">Grand Wedding Feast</div>
+        <div class="ev-desc">A magnificent wedding feast for all guests — a spread of over 50 dishes featuring royal Gujarati, Rajasthani and Indian cuisine served with warmth and celebration.</div>
+        <div class="ev-bullets">
+          <div class="ev-bullet">Full royal thali with 50+ items</div>
+          <div class="ev-bullet">Live pav bhaji, pizza and chaat counters</div>
+          <div class="ev-bullet">Dessert counter — gulab jamun, ice cream, halwa</div>
+          <div class="ev-bullet">Welcome mocktails and fresh juices</div>
+        </div>
+        <div class="ev-loc">📍 Banquet Hall · Krishna Valley</div>
+      </div>
+
+      <div class="ev-card">
+        <div class="ev-time">5:00 PM</div>
+        <span class="ev-icon">🥲</span>
+        <div class="ev-title">Vidaai — Farewell Ceremony</div>
+        <div class="ev-desc">The most emotional moment of the wedding — the Vidaai. The bride bids farewell to her family home, throwing back handfuls of rice as she leaves, symbolizing her gratitude and prayers for her family's prosperity.</div>
+        <div class="ev-bullets">
+          <div class="ev-bullet">Rice throwing ritual by the bride</div>
+          <div class="ev-bullet">Final blessings from all elders</div>
+          <div class="ev-bullet">Decorated car send-off for the couple</div>
+          <div class="ev-bullet">Group blessings and flower shower</div>
+        </div>
+        <div class="ev-loc">📍 Krishna Valley</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ VENUE ══════════ -->
+<div class="venue-strip">
+  <div class="venue-card">
+    <span class="venue-icon">📍</span>
+    <div class="venue-title">Amitnagar Krishna Valley</div>
+    <div class="venue-address">
+      Krishna Valley Banquet &amp; Gardens<br>
+      Amitnagar, Surat, Gujarat — 395 010<br><br>
+      All three days of celebration take place here.<br>
+      Ample parking · AC halls · Open gardens available
+    </div>
+    <div class="venue-tags">
+      <div class="vtag">Free Parking</div>
+      <div class="vtag">AC Banquet Hall</div>
+      <div class="vtag">Open Garden</div>
+      <div class="vtag">Catering Included</div>
+      <div class="vtag">Photography Allowed</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="footer">
+  <div class="footer-orn">
+    <div class="footer-line"></div>
+    <span style="color:#c49430;font-size:16px">💍</span>
+    <div class="footer-line r"></div>
+  </div>
+  <div class="footer-title">Shiv Patel's Wedding 2027</div>
+  <div class="footer-sub">
+    24 · 25 · 26 January 2027<br>
+    Amitnagar Krishna Valley · Surat, Gujarat<br><br>
+    With love &amp; blessings from the Patel family
+  </div>
+</footer>
+
+<div id="toast" style="position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#c49430;color:#0a0705;padding:12px 24px;border-radius:10px;font-size:13px;font-weight:500;z-index:9999;transition:.3s;opacity:0;pointer-events:none;white-space:nowrap"></div>
+
+<script>
+// COUNTDOWN
+const tick=()=>{
+  const diff=new Date('2027-01-26T08:00:00')-new Date();
+  if(diff<=0){['d','h','m','s'].forEach(k=>document.getElementById('cd-'+k).textContent='0');return;}
+  document.getElementById('cd-d').textContent=Math.floor(diff/86400000);
+  document.getElementById('cd-h').textContent=String(Math.floor((diff%86400000)/3600000)).padStart(2,'0');
+  document.getElementById('cd-m').textContent=String(Math.floor((diff%3600000)/60000)).padStart(2,'0');
+  document.getElementById('cd-s').textContent=String(Math.floor((diff%60000)/1000)).padStart(2,'0');
+};
+setInterval(tick,1000);tick();
+
+// PETALS
+const pe=document.getElementById('petals');
+['🌸','✿','❀','🌺','🌼','🌷','💛','🧡'].forEach(s=>{
+  for(let i=0;i<2;i++){
+    const p=document.createElement('div');p.className='petal';p.textContent=s;
+    p.style.cssText=`left:${Math.random()*100}%;font-size:${8+Math.random()*10}px;animation-duration:${12+Math.random()*16}s;animation-delay:${Math.random()*18}s`;
+    pe.appendChild(p);
+  }
+});
+</script>
+</body>
+</html>
