@@ -39,4 +39,4 @@ Your site is live at `https://shiv-wedding.vercel.app`
 | 25 Jan 2027 | Ganesh Puja · Grah Shanti · Haldi · Aland · Music Night 🪔 |
 | 26 Jan 2027 | Jaan to Vadu — The Grand Wedding 💍 |
 
-Venue: Amitnagar Krishna Valley, Surat, Gujarat
+Venue: Amitnagar Krishna Valley, Vadodara, Gujarat
